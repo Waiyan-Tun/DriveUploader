@@ -1,7 +1,9 @@
 ## Create a Virtual Environment (optional but recommended)
 
-python -m venv myenv
-myenv\Scripts\activate
+python3 -m venv venv
+
+source venv/bin/activate
+
 
 
 ## install required packages
