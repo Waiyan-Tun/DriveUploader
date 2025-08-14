@@ -16,6 +16,10 @@ pip install pyqt5 mysql-connector-python google-api-python-client google-auth-ht
 ## Run the program
 python DriveMySQLUploader.py
 
+## if you get winerror10013
+python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+
 ## EXE file creation
 pip install pyinstaller
 pyinstaller --onefile --noconsole DriveMySQLUploader.py
